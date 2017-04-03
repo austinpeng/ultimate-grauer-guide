@@ -1,0 +1,218 @@
+@font-face {
+  font-family: 'Avenir Light';
+  src: url('/fonts/Avenir-Book.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Avenir Heavy';
+  src: url('/fonts/Avenir-Heavy.ttf') format('truetype');
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow:hidden !important;
+}
+
+body {
+  font-family: 'Avenir Light', Helvetica, sans-serif;
+  color: #454545;
+  letter-spacing: -0.02rem;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main {
+  padding: 40px 15px;
+  width: 90%;
+  margin: auto;
+}
+
+.main div {
+  margin: auto;
+}
+
+.overlay {
+  width: 100%; height: 100%;
+  position: fixed;
+  opacity: 0.75;
+  background-color: black;
+  z-index: 1;
+  display: none;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+header {
+  background: linear-gradient(45deg, #31abe0, #2f3590);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  height: 100px;
+}
+
+header .content div {
+  display: inline-block;
+}
+
+header .logo img {
+  width: 60px;
+}
+
+nav {
+  width: 100%;
+  padding: 5px;
+  max-height: 50px;
+  color: white;
+  background: #2f4c9f;
+  overflow: hidden;
+  z-index: 100;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: auto;
+  padding-left: 0px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 5px 15px;
+  opacity: 0.75;
+}
+
+nav ul li:hover {
+  opacity: 1;
+}
+
+.title {
+  font-weight: bold;
+}
+#title-container{
+    margin:0 auto;
+    text-align: center;
+    margin-top:30px;
+}
+.sch {
+  display: inline-block;
+}
+
+.heavy {
+  font-family: 'Avenir Heavy';
+  color: #41c4ff;
+}
+
+*, *:hover {
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+}
+
+ul.social {
+  padding-left: 0;
+  margin: auto;
+  padding: 10px;
+  list-style-type: none;
+}
+
+ul.social li {
+  display: inline-block;
+}
+
+ul.social li a {
+  color: inherit;
+  opacity: 0.8;
+  padding: 10px;
+  font-size: 1.1em;
+}
+
+ul.social li a:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+/* NOW */
+
+#now {
+  background: #273775;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+#now h3 {
+   font-family: 'Avenir Heavy';
+   letter-spacing: -0.04rem;
+}
+
+/* CHAT */
+
+#chat {
+    height: 60vh;
+    position:relative;
+    top:-25px;
+    left:10vw;
+}
+
+#chat ul#chatList {
+  padding-left: 0;
+  list-style-type: none;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100%;
+  max-width:500px;
+  position:relative;
+}
+
+#chat ul#chatList li p.message {
+  color: white;
+  background: #2979FF;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  width:400px;
+}
+
+#chat ul#chatList li p.user {
+  color: #808080;
+  text-align: left;
+  font-size: 80%;
+  margin-bottom: 2px;
+}
+
+#chat .changeUsername {
+  font-size: 80%;
+  color: #808080;
+}
+
+#chat .changeUsername:hover {
+  cursor: pointer;
+  color: #aaaaaa;
+}
+
+#chat input {
+    margin-left:15px;
+    padding: 15px 5px;
+    width: 400px;
+    border-radius:8px;
+}
+
+#chat #chatWindow {
+  overflow-y: hidden;
+}
