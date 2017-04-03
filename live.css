@@ -55,8 +55,8 @@ h2 {
 }
 
 header {
-  background: linear-gradient(45deg, #31abe0, #2f3590);
-  color: white;
+/*  background: linear-gradient(45deg, #31abe0, #2f3590);*/
+  color: black;
   text-align: center;
   padding: 20px;
   height: 100px;
@@ -107,14 +107,15 @@ nav ul li:hover {
 #title-container{
     margin:0 auto;
     text-align: center;
-    margin-top:30px;
+    margin-top:25px;
+    margin-bottom:25px;
 }
 .sch {
   display: inline-block;
 }
 
 .heavy {
-  font-family: 'Avenir Heavy';
+  font-family: 'Avenir';
   color: #41c4ff;
 }
 
@@ -164,7 +165,7 @@ ul.social li a:hover {
 /* CHAT */
 
 #chat {
-    height: 60vh;
+    height: 58vh;
     position:relative;
     top:-25px;
     left:10vw;
