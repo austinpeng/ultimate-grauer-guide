@@ -279,7 +279,6 @@ button:focus {
     padding: 15px;
     text-align: left;
     min-height: 150px;
-    max-width:500px;
   }
   #start_button {
     border: 0;

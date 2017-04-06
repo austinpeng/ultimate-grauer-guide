@@ -23,7 +23,7 @@ $(".alert .close-button").click(function() {
 
 $(".changeUsername").click(function() {
 	var u = "";
-	while (u == "" || u.toUpperCase() == "HACKMHS")  {
+	while (u == "" || u.toUpperCase() == "GRAUER")  {
 		if (u.toUpperCase() == "GRAUER") {
 			alert("Sorry, that username is reserved. Please choose another.");
 		}
