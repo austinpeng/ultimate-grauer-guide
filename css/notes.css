@@ -232,6 +232,7 @@ ul.social li a:hover {
     text-shadow: 1px 1px 1px #076bd2;
     letter-spacing: normal;
   }
+button:focus { outline: none; }
   .center {
     padding: 10px;
     text-align: center;
