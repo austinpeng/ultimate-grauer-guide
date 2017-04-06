@@ -218,3 +218,6 @@ ul.social li a:hover {
 #chat #chatWindow {
   overflow-y: hidden;
 }
+iframe{
+    float:left;
+}
